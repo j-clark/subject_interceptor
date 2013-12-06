@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = "Intercept emails and append text to the subject"
 
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/j-clark/subject_interceptor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
