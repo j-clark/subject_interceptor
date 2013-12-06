@@ -1,6 +1,6 @@
 # SubjectInterceptor
 
-TODO: Write a gem description
+SubjectInterceptor allows you to prepend text to the subject of all emails sent through ActionMailer
 
 ## Installation
 
@@ -18,7 +18,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+  # config/environments/staging.rb
+  Mail.register_interceptor SubjectInterceptor.new('[STAGING]')
+```
+
+## Authors
+
+* Joshua Clark - [@j-clark](https://github.com/j-clark)
+* Alex Kwiatkowski - [@rupurt](https://github.com/rupurt)
 
 ## Contributing
 
