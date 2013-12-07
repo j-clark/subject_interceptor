@@ -1,4 +1,5 @@
 # SubjectInterceptor
+[![Build Status](https://travis-ci.org/j-clark/subject_interceptor.png?branch=master)](https://travis-ci.org/j-clark/subject_interceptor) [![Code Climate](https://codeclimate.com/github/j-clark/subject_interceptor.png)](https://codeclimate.com/github/j-clark/subject_interceptor)
 
 SubjectInterceptor allows you to prepend text to the subject of all emails sent through ActionMailer
 
